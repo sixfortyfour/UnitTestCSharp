@@ -77,7 +77,7 @@ jobs:
 
     # Print the current working directory
     - name: Print working directory
-      run: echo Hello world
+      run: echo ${{ github.workspace }}
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
