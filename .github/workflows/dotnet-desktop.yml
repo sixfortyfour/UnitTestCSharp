@@ -82,3 +82,4 @@ jobs:
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test
+      working-directory: Test_Project_Path
